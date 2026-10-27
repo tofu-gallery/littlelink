@@ -153,6 +153,7 @@ a:hover {
 	align-items:center;
 	justify-content:center;
 	width:18.75rem;             	/* 300px */
+	max-width:100%;             	/* Tofu: never wider than the page, so a 320px phone does not scroll sideways */
  	min-height:3rem;                /* 48px */
   	padding:0.75rem 1rem;         	/* 12px ; 16px */
   	font-size:1.125rem;           	/* 18px */
@@ -250,6 +251,14 @@ a:hover {
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
     .button:hover,button:hover {
 	color:var(--button-text,#000000);
+}
+
+/* Tofu: the small "Shipped live by Tofu." footer Tofu adds to a Free-plan page, centred like the page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer[data-tofu-attribution] {
+	text-align:center;
+	margin:0 0 var(--spacing-xl) 0;
+	padding:0 var(--spacing-m);
 }
 
 /* Privacy Page Styles
