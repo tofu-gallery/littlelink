@@ -1,3 +1,7 @@
+> **This is Tofu's fork of LittleLink**, kept for Tofu's app gallery: a copy made from it starts as a short link page
+> that its owner changes into their own. [TOFU.md](TOFU.md) says what changed from upstream, and why. The rest of this
+> README is upstream's: the Docker files and the other hosts' deploy settings it mentions are not in this fork.
+
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
